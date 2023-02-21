@@ -16,8 +16,12 @@ public class ScopesTester {
 
   @EventListener(ApplicationReadyEvent.class)
   public void onReadeEvent() {
+    System.out.println("-----------------------------");
     worker.doSomeWork();
+    System.out.println("-----------------------------");
     worker.doSomeWork();
+    System.out.println("-----------------------------");
     worker.doSomeWork();
+    System.out.println("-----------------------------");
   }
 }
